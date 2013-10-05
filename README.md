@@ -7,16 +7,18 @@ This was implemented as part of a Georgia Tech CS 6601 homework assignment, and 
 
 Please feel free to use as you need, and let me know if you see any bugs or issues.
 
-Dependencies:
+####Dependencies
 
-A Common Lisp compiler or interpreter (tested on SBCL and CLISP).
-Quicklisp loaded in your compiler (used to load Imago).
 
-To run all experiments for HW2, launch your lisp environment and call:
-    (load "hw2.lisp")
-    (hw2-main)
+A Common Lisp compiler or interpreter (tested on SBCL and CLISP).  
+Quicklisp loaded in your compiler (used to load Imago).  
 
-Each part of the homework can be run individually by executing one of the following statements:
+To run all experiments for HW2, launch your lisp environment and call:  
+
+    (load "hw2.lisp")  
+    (hw2-main)  
+
+Each part of the homework can be run individually by executing one of the following statements:  
 
     ; Part 2
     (run-part-2 3 1e-6 10 20)
